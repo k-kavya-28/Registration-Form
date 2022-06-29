@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registrationForm.css">
+</head>
+<body>
+    <div class="container">
+    <form action="serverURL.php">
+    <h1 class="main_heading">Registration Info</h1>
+    <p>Name:<input type="text" name="name" required placeholder="Khushi Kavya"> </p>
+    <p>
+        Birthdate:<input type="date" name="Birthdate" id="Birthdate" required>
+    </p>
+    <p>
+        Gender:
+        <select name="Gender" id="Gender" required>
+            <option value="">Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+    </p>
+    <p>Email:<input type="email" name="email" id="email" required placeholder="khushi.kavya6910@gmail.com"></p>
+    <p>Phone:<input type="number" name="Phone" id="Phone" required placeholder="9876543210"></p>
+    <input type="Submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
